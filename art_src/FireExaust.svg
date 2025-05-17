@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="240mm"
+   height="80mm"
+   viewBox="0 0 240 80"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="FireExaust.svg"
+   inkscape:export-filename="/home/domtron/programming/games/redot/tarent/assets/items/FireExaust/FireExaust.png"
+   inkscape:export-xdpi="25.4"
+   inkscape:export-ydpi="25.4"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.3932941"
+     inkscape:cx="542.24017"
+     inkscape:cy="62.08309"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2444">
+      <stop
+         style="stop-color:#0059c8;stop-opacity:1"
+         offset="0"
+         id="stop2440" />
+      <stop
+         style="stop-color:#ff7931;stop-opacity:1"
+         offset="1"
+         id="stop2442" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2444"
+       id="radialGradient2448"
+       cx="34.65934"
+       cy="11.377745"
+       fx="34.65934"
+       fy="11.377745"
+       r="7.1374412"
+       gradientTransform="matrix(1.0358668,0.01417843,-0.09847511,7.1945236,5.152758,-64.205528)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2444"
+       id="radialGradient19479"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0245572,0.01899818,-0.09739996,9.6402042,85.526992,-86.031327)"
+       cx="34.65934"
+       cy="11.377745"
+       fx="34.65934"
+       fy="11.377745"
+       r="7.1374412" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2444"
+       id="radialGradient19483"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0288481,0.01056112,-0.09780788,5.358999,165.3849,-47.824898)"
+       cx="34.65934"
+       cy="11.377745"
+       fx="34.65934"
+       fy="11.377745"
+       r="7.1374412" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path1006"
+       style="fill:url(#radialGradient2448);fill-opacity:1;stroke:#000000;stroke-width:0.422208;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 39.638713,56.255659 33.190669,27.956624 25.269935,41.433007 34.253496,10.829086 25.335702,21.709848 34.261068,0 h 10.256518 l 8.925366,21.709848 -8.917794,-10.880762 8.983561,30.603921 -7.920734,-13.476383 -6.448046,28.299035"
+       sodipodi:nodetypes="cccccccccccc" />
+    <path
+       id="path19477"
+       style="fill:url(#radialGradient19479);fill-opacity:1;stroke:#000000;stroke-width:0.486055;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 119.63643,75.379 -6.37765,-37.918904 -5.71962,18.057495 6.77085,-41.007306 -8.82042,14.57953 L 114.3175,0 h 10.14454 l 8.82791,29.089815 -8.82042,-14.57953 6.77083,41.007306 -5.71962,-18.057495 -6.37763,37.918904"
+       sodipodi:nodetypes="cccccccccccc" />
+    <path
+       id="path19481"
+       style="fill:url(#radialGradient19483);fill-opacity:1;stroke:#000000;stroke-width:0.363155;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 199.6372,41.903264 -6.40436,-21.079158 -8.92882,10.03818 9.98445,-22.7960036 -6.73388,8.1047746 L 194.29599,0 h 10.18703 l 6.7414,16.171057 -6.73388,-8.1047746 9.98443,22.7960036 -8.92882,-10.03818 -6.40434,21.079158"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/domtron/programming/games/redot/tarent/assets/items/FireExaust.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+  </g>
+</svg>

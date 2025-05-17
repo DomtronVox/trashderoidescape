@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="10mm"
+   height="10mm"
+   viewBox="0 0 10 10"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="Audio Control Icon.svg"
+   inkscape:export-filename="/home/domtron/programming/games/redot/tarent/assets/icon/Music-On.png"
+   inkscape:export-xdpi="101.6"
+   inkscape:export-ydpi="101.6"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="5.5731762"
+     inkscape:cx="46.562318"
+     inkscape:cy="39.205651"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Music note"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <path
+       id="rect1036"
+       style="fill:#444444;stroke:#000000;stroke-width:0.0265023;stroke-linecap:square;paint-order:markers fill stroke"
+       d="M 7.6673734,1.4850492 1.4165526,2.4289355 1.5513935,3.3218361 1.8769786,3.2726618 v 3.9730188 a 0.71645803,0.71645803 0 0 1 -2.65e-4,0 A 0.71645803,0.71645803 0 0 0 1.3715131,7.9302376 0.71645803,0.71645803 0 0 0 2.0879039,8.6466284 0.71645803,0.71645803 0 0 0 2.8042948,7.9302376 0.71645803,0.71645803 0 0 0 2.3537099,7.2650915 V 3.2007121 L 7.1774427,2.4721571 V 6.1855878 A 0.71645803,0.71645803 0 0 0 6.6719834,6.8701447 0.71645803,0.71645803 0 0 0 7.3883743,7.5865356 0.71645803,0.71645803 0 0 0 8.1047651,6.8701447 0.71645803,0.71645803 0 0 0 7.654174,6.2049986 v -3.80505 l 0.1480403,-0.022258 z" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="No"
+     style="display:none">
+    <path
+       id="path1207"
+       style="fill:#dc0000;fill-opacity:1;stroke:#000000;stroke-width:0.0286844;stroke-linecap:square;paint-order:markers fill stroke"
+       d="M 5.0875381,0.31884358 A 4.8221138,4.8221138 0 0 0 0.26561684,5.1410236 4.8221138,4.8221138 0 0 0 5.0875381,9.9629449 4.8221138,4.8221138 0 0 0 9.9097182,5.1410236 4.8221138,4.8221138 0 0 0 5.0875381,0.31884358 Z m 0.00311,0.54091651 A 4.2012732,4.2012732 0 0 1 7.65728,1.7366142 L 1.6908931,7.5293383 A 4.2012732,4.2012732 0 0 1 0.88935311,5.0610509 4.2012732,4.2012732 0 0 1 5.0906439,0.85976009 Z M 8.1635155,2.1980755 A 4.2012732,4.2012732 0 0 1 9.2919346,5.0610509 4.2012732,4.2012732 0 0 1 5.0906439,9.2623416 4.2012732,4.2012732 0 0 1 2.1386373,8.0477381 Z" />
+  </g>
+</svg>

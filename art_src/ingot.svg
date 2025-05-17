@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="40mm"
+   height="20mm"
+   viewBox="0 0 40 20"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="ingot.svg"
+   inkscape:export-filename="/home/domtron/programming/games/redot/tarent/assets/icons/ingot_copper.png"
+   inkscape:export-xdpi="50.799999"
+   inkscape:export-ydpi="50.799999"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.9408307"
+     inkscape:cx="58.236453"
+     inkscape:cy="61.789003"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="45.586202 : -30.762356 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="-15.34813 : 14.150304 : 1"
+       inkscape:persp3d-origin="20 : 6.6666667 : 1"
+       id="perspective900" />
+  </defs>
+  <g
+     inkscape:label="Copper"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <path
+       id="path11388"
+       style="fill:#d28700;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 29.2139,6.9117813 C 33.024244,2.8464131 33.024244,2.8464131 33.024244,2.8464131 M 7.4082345,6.9117813 H 29.213899 m 0,0 3.175,9.5597917 m -28.155664,0 3.1749995,-9.5597917 C 11.707856,2.9647282 11.757927,2.8464131 11.757927,2.8464131 h 21.266317 l 3.611763,9.3780519 -4.247108,4.247108 z"
+       inkscape:export-filename="/home/domtron/programming/games/redot/tarent/assets/icons/ingot_copper.png"
+       inkscape:export-xdpi="50.799999"
+       inkscape:export-ydpi="50.799999" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Steel"
+     style="display:none">
+    <path
+       id="path11388-6"
+       style="fill:#9ba6aa;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 29.113038,6.8536617 C 32.923382,2.7882935 32.923382,2.7882935 32.923382,2.7882935 M 7.3073715,6.8536617 H 29.113037 m 0,0 3.175,9.5597913 m -28.155665,0 3.1749995,-9.5597913 C 11.606994,2.9066086 11.657065,2.7882935 11.657065,2.7882935 h 21.266317 l 3.611763,9.3780515 -4.247108,4.247108 z"
+       inkscape:export-filename="/home/domtron/programming/games/redot/tarent/assets/icons/ingot_copper.png"
+       inkscape:export-xdpi="50.799999"
+       inkscape:export-ydpi="50.799999" />
+  </g>
+</svg>

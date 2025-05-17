@@ -1,0 +1,187 @@
+[gd_scene load_steps=10 format=3 uid="uid://bsnej5i7plq8e"]
+
+[ext_resource type="Texture2D" uid="uid://dbhnyaily7hh2" path="res://assets/background.png" id="1_bh5nw"]
+[ext_resource type="Script" path="res://main_menu.gd" id="1_j683j"]
+[ext_resource type="AudioStream" uid="uid://c662okiyq2we6" path="res://sound/ObservingTheStar.ogg" id="2_nn8wi"]
+[ext_resource type="Texture2D" uid="uid://qml46s4nhi0c" path="res://assets/trashderoid.png" id="2_twyav"]
+[ext_resource type="PackedScene" uid="uid://dcdsck8rhpywe" path="res://objects/junk_pile.tscn" id="3_quh52"]
+[ext_resource type="Theme" uid="uid://dmcxpqlb55wyo" path="res://theming/theme.tres" id="4_630uh"]
+[ext_resource type="PackedScene" uid="uid://wmv0k5di7ohm" path="res://objects/MusicControl.tscn" id="7_ivp5t"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_vqse1"]
+font_size = 60
+font_color = Color(0.541176, 0.341176, 0.462745, 1)
+outline_size = 6
+outline_color = Color(0.360816, 0.09714, 0.314681, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nlue1"]
+
+[node name="MainMenu" type="Node2D"]
+script = ExtResource("1_j683j")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_nn8wi")
+volume_db = -10.0
+autoplay = true
+
+[node name="ColorRect" type="TextureRect" parent="."]
+z_index = -2
+offset_top = -91.0
+offset_right = 2090.0
+offset_bottom = 1432.0
+mouse_filter = 2
+texture = ExtResource("1_bh5nw")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(957, 561)
+scale = Vector2(0.786667, 0.76129)
+texture = ExtResource("2_twyav")
+
+[node name="JunkPile" parent="Sprite2D" instance=ExtResource("3_quh52")]
+position = Vector2(-162.712, -124.576)
+
+[node name="JunkPile2" parent="Sprite2D" instance=ExtResource("3_quh52")]
+position = Vector2(-12.712, -195.763)
+
+[node name="JunkPile3" parent="Sprite2D" instance=ExtResource("3_quh52")]
+position = Vector2(157.627, -66.1018)
+
+[node name="JunkPile4" parent="Sprite2D" instance=ExtResource("3_quh52")]
+position = Vector2(-119.492, 81.3558)
+
+[node name="JunkPile5" parent="Sprite2D" instance=ExtResource("3_quh52")]
+position = Vector2(53.3897, 76.2711)
+
+[node name="GameTitle" type="Label" parent="."]
+offset_left = 455.0
+offset_top = 134.0
+offset_right = 1007.0
+offset_bottom = 217.0
+text = "Trashteroid Escape"
+label_settings = SubResource("LabelSettings_vqse1")
+
+[node name="MenuButtons" type="VBoxContainer" parent="."]
+offset_left = 111.0
+offset_top = 226.0
+offset_right = 361.0
+offset_bottom = 570.0
+
+[node name="PlayButton" type="Button" parent="MenuButtons"]
+custom_minimum_size = Vector2(250, 100)
+layout_mode = 2
+theme = ExtResource("4_630uh")
+theme_override_font_sizes/font_size = 40
+text = "Play Game"
+
+[node name="MarginContainer" type="MarginContainer" parent="MenuButtons"]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_right = 40
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MenuButtons/MarginContainer"]
+layout_mode = 2
+
+[node name="StoryButton" type="Button" parent="MenuButtons/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+theme = ExtResource("4_630uh")
+theme_override_font_sizes/font_size = 25
+text = "Story"
+
+[node name="CreditsButton" type="Button" parent="MenuButtons/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+theme = ExtResource("4_630uh")
+theme_override_font_sizes/font_size = 25
+text = "Credits"
+
+[node name="QuitButton" type="Button" parent="MenuButtons/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+theme = ExtResource("4_630uh")
+theme_override_font_sizes/font_size = 25
+text = "Quit"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MenuButtons"]
+layout_mode = 2
+alignment = 1
+
+[node name="MusicControl" parent="MenuButtons/HBoxContainer" instance=ExtResource("7_ivp5t")]
+layout_mode = 2
+
+[node name="StoryBox" type="BoxContainer" parent="."]
+visible = false
+offset_left = 372.0
+offset_top = 18.0
+offset_right = 1123.0
+offset_bottom = 626.0
+
+[node name="Panel" type="Panel" parent="StoryBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("4_630uh")
+
+[node name="MarginContainer" type="MarginContainer" parent="StoryBox/Panel"]
+layout_mode = 0
+offset_right = 749.0
+offset_bottom = 607.0
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="RichTextLabel" type="RichTextLabel" parent="StoryBox/Panel/MarginContainer"]
+layout_mode = 2
+text = "Gravity is odd. You live dirtside and it's a constant thing. But the moment you scratch at the sky? Everything goes sideways. Every little fuzz spec is flitting around your cabin, slipping into places it shouldn't and wrecking havoc on the systems keeping you alive.
+
+But when you get way out there, in the deep black where the planets are dim lights lost in a sea of stars, then it gets really weird. Everything has a pull, even when you're dirtside. But out in the deep black it actually matters. A screw, a plate, a rock. It all pulls on each other and balls up into a mass. And when it gets started it only gets stronger.
+
+And when you and your fellow spacers are running the same transfer orbits over and over, the bits pile up over the years. And so the trashteroids were born. Now don't get me wrong. It's not really a bad thing per say. It's not like near planetary orbit where debris can cascade, and it's not like there is anything living out here to hurt. One day someone needs to beat the tyranny of the rocket equation and tosses a few kilos of mass, another day your oxygen filter is on the fritz and the only thing in the next thousand light minutes is that rat nest of junk. We even put solar powered beacons on them to make it easy to find in an emergency.
+
+It's not like you'd ever hit one, what with how massive space is. The probability is so low it might as well be zero.
+
+Well it's just my black luck that it isn't zero... "
+
+[node name="CreditBox" type="BoxContainer" parent="."]
+visible = false
+offset_left = 372.0
+offset_top = 18.0
+offset_right = 1123.0
+offset_bottom = 626.0
+
+[node name="Panel" type="Panel" parent="CreditBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("4_630uh")
+
+[node name="MarginContainer" type="MarginContainer" parent="CreditBox/Panel"]
+layout_mode = 0
+offset_right = 749.0
+offset_bottom = 607.0
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CreditBox/Panel/MarginContainer"]
+layout_mode = 2
+focus_mode = 2
+theme_override_styles/focus = SubResource("StyleBoxEmpty_nlue1")
+bbcode_enabled = true
+text = "Code, art, and story by Domtron Vox.
+
+Music and sounds via  https://opengameart.org/
+
+Main Menu Music - \"Another space background track\" (CC0) by yd 
+  https://opengameart.org/content/another-space-background-track 
+
+Game music - \"Planet Rise LEO\" (CC0) by FoxSynergy 
+  https://opengameart.org/content/planetrise
+
+Some sound effects taken from this misc collection (CC0) by rubberduck 
+  https://opengameart.org/content/100-cc0-sfx-2
+​
+Some sound effects taken from this workshop sounds collection (CC0) by bart 
+  https://opengameart.org/content/68-workshop-sounds"
+selection_enabled = true

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="80mm"
+   height="80mm"
+   viewBox="0 0 80 80"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="pile.svg"
+   inkscape:export-filename="/home/domtron/programming/games/redot/tarent/assets/pile.png"
+   inkscape:export-xdpi="25.4"
+   inkscape:export-ydpi="25.4"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2"
+     inkscape:cx="116.25"
+     inkscape:cy="181.75"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#444444;stroke:#6f6f6f;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 0.21588345,79.871268 79.815216,79.888182 39.536081,0.26804815 Z"
+       id="path1159"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#444444;fill-opacity:1;stroke:#6f6f6f;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 9.0769653,77.332229 22.230684,57.546874 38.461218,76.778776"
+       id="path2980"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#444444;fill-opacity:1;stroke:#6f6f6f;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 21.025029,47.124934 25.881581,20.596838 50.409282,46.571481"
+       id="path2980-3"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#444444;fill-opacity:1;stroke:#6f6f6f;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 41.537988,71.546699 8.912634,-37.169823 15.989722,36.61637"
+       id="path2980-6"
+       sodipodi:nodetypes="ccc" />
+  </g>
+</svg>

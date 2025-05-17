@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b5rd3wmu3j3jx"
+path="res://.godot/imported/mix of workshop - drill2 and workshop - metal hammering - upgrade sound.mp3-82da1cec1063cf6bfdaddde0c6952134.mp3str"
+
+[deps]
+
+source_file="res://sound/mix of workshop - drill2 and workshop - metal hammering - upgrade sound.mp3"
+dest_files=["res://.godot/imported/mix of workshop - drill2 and workshop - metal hammering - upgrade sound.mp3-82da1cec1063cf6bfdaddde0c6952134.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

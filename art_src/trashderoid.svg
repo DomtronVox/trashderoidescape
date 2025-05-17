@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200mm"
+   height="200mm"
+   viewBox="0 0 200 200"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="trashderoid.svg"
+   inkscape:export-filename="/home/domtron/programming/games/redot/tarent/assets/trashderoid.png"
+   inkscape:export-xdpi="76.199997"
+   inkscape:export-ydpi="76.199997"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.69664705"
+     inkscape:cx="336.61235"
+     inkscape:cy="531.83316"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path846"
+       style="fill:#6a6a6a;stroke:#000000;stroke-width:1.07457;stroke-linecap:square;paint-order:markers fill stroke"
+       d="m 198.24281,98.618964 c 0,8.245346 -6.22378,8.542446 -7.49547,20.725746 0,0 -15.29605,55.04907 -25.78013,51.64912 -6.86435,-2.22611 -22.73382,14.26315 -22.73382,14.26315 0,0 -30.24154,10.03005 -42.711419,10.03005 -18.801599,0 -63.395624,-18.9991 -69.59901,-24.73128 -6.26422,-5.78838 -8.816657,-32.54156 -11.644054,-34.33159 C 1.468327,125.58136 0.8011375,119.88065 0.80113578,98.618964 0.80113406,72.366526 21.233184,26.329638 21.233184,26.329638 c 0,0 20.331207,5.143801 39.197692,-1.592279 C 75.197104,19.46523 87.355149,1.9508861 99.521971,1.9508861 c 34.978649,-1.7e-6 79.886939,35.3774959 85.406949,40.6817859 0,0 13.31389,36.849302 13.31389,55.986292 z"
+       sodipodi:nodetypes="ssscsssscssss"
+       inkscape:export-filename="/home/domtron/programming/games/redot/tarent/assets/trashderoid.png"
+       inkscape:export-xdpi="50.799999"
+       inkscape:export-ydpi="50.799999" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.455908px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 30.341327,111.43538 c 0.941543,-4.17033 0.690023,-10.35098 3.912532,-13.663828 0.777059,-0.798855 2.140786,-0.10735 3.033144,-0.553465 1.779671,-0.889836 5.107581,-0.18446 6.674697,-0.70684 0.578908,-0.192955 1.195232,-0.551157 1.866152,-0.327203 0.141743,0.04721 0.211326,0.211323 0.316993,0.316984 0.109073,0.109074 0.180858,0.278491 0.327213,0.327221 0.74536,0.248128 0.660593,0.0017 1.310143,0.327202 0.178024,0.08909 3.119312,-0.94575 3.603212,-0.968857 0.801077,-0.03825 0.631292,1.895429 0.903679,2.167803 0.209179,0.209186 0.559358,0.402796 0.966312,0.65444 0.651638,0.402934 5.954876,0 6.679807,0"
+       id="path3547" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.455908px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 107.43267,22.65628 c 2.56989,-0.899731 5.40707,-0.512555 8.08581,-0.512555 12.56363,0 -0.5846,-0.239101 7.85575,0.423083 1.10436,0.08664 2.23192,-0.18984 3.32329,0 0.9993,0.173824 1.69811,0.675108 2.5372,0.954803 1.41332,0.471109 3.31851,0.02845 4.63471,0.663383 0.39888,0.192412 0.58336,0.676181 0.93948,0.939468 0.97837,0.72335 2.02244,1.343617 3.03696,2.019537 0.50396,0.335748 0.80631,0.974248 1.31015,1.310144 0.99845,0.66563 1.67501,-0.795793 2.57555,-0.327221 1.03692,0.539541 2.17576,2.034878 3.36674,2.034878"
+       id="path3549" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.455908px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 81.009975,163.43588 c 2.93341,-2.46101 5.829859,-5.31545 9.862493,-5.80808 1.783289,-0.21783 2.575713,1.95841 3.830732,2.76344 1.553796,0.9967 3.893888,1.51744 5.58952,2.09239 1.12439,0.38126 1.75538,2.28905 2.82735,2.81585 1.25444,0.61648 2.68456,1.12432 4.01479,1.79203 1.71681,0.86175 4.2946,-1.17382 5.68665,-1.69233 1.91647,-0.71383 3.90314,-1.24502 5.82598,-1.94157 2.54818,-0.92306 6.59246,-1.84739 7.85191,-4.36628"
+       id="path3551" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.455908px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 152.11301,128.25121 c 2.29926,-3.12403 5.48539,-5.1318 8.4437,-7.48634 0.85495,-0.68046 0.76385,-1.13074 1.98247,-1.65399 1.22012,-0.52386 2.46018,0.43008 3.54826,0.63911 0.87095,0.16731 2.40823,0.3456 3.21847,0.72729 1.0193,0.48015 4.59295,5.0222 5.20478,5.83875 0.47093,0.62851 2.49246,3.37233 2.49246,4.06592"
+       id="path3553" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.455908px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 51.465941,56.537205 c 3.573901,-3.87134 8.42175,-6.325207 12.302556,-9.790917 1.080141,-0.96461 1.434738,-2.387646 2.144802,-3.578929 0.919549,-1.542744 1.171429,-2.204376 1.331867,-2.023371 0.630098,0.710874 0.418209,2.295553 0.843607,3.146902 0.111555,0.223244 0.905494,1.23613 0.988036,1.647583 0.361074,1.799771 0.860504,3.924458 1.409841,5.570342 0.324739,0.97295 -0.248989,2.249971 0,3.247877 0.464904,1.863228 1.339969,3.877613 2.415777,5.502597 0.377674,0.570464 1.31142,0.905161 1.31142,1.633525"
+       id="path3555"
+       inkscape:export-filename="/home/domtron/programming/games/redot/tarent/assets/trashderoid.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+  </g>
+</svg>

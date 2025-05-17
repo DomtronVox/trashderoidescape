@@ -1,0 +1,56 @@
+[gd_scene load_steps=8 format=3 uid="uid://c8us5x75xwlaf"]
+
+[ext_resource type="Script" path="res://world.gd" id="1_pcnnw"]
+[ext_resource type="AudioStream" uid="uid://bhlrl87s8tngi" path="res://sound/Planetrise_v1_1.mp3" id="2_5kpk1"]
+[ext_resource type="PackedScene" uid="uid://c64barccrunwf" path="res://objects/UI/UICanvas.tscn" id="2_57b4h"]
+[ext_resource type="Texture2D" uid="uid://qml46s4nhi0c" path="res://assets/trashderoid.png" id="5_grqjv"]
+[ext_resource type="Texture2D" uid="uid://dbhnyaily7hh2" path="res://assets/background.png" id="5_jarfl"]
+[ext_resource type="PackedScene" uid="uid://bicii61xn2say" path="res://objects/rocket.tscn" id="5_lt0mu"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_gum43"]
+font_size = 80
+font_color = Color(0.541176, 0.341176, 0.462745, 1)
+outline_size = 6
+outline_color = Color(0.360816, 0.09714, 0.314681, 1)
+
+[node name="world" type="Node2D"]
+script = ExtResource("1_pcnnw")
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_5kpk1")
+volume_db = -20.0
+autoplay = true
+playback_type = 2
+parameters/looping = true
+
+[node name="ColorRect" type="TextureRect" parent="."]
+z_index = -2
+offset_left = -716.0
+offset_top = -794.0
+offset_right = 614.0
+offset_bottom = 383.0
+mouse_filter = 2
+texture = ExtResource("5_jarfl")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = -1
+texture = ExtResource("5_grqjv")
+
+[node name="Camera" type="Camera2D" parent="."]
+
+[node name="UICanvas" parent="." instance=ExtResource("2_57b4h")]
+
+[node name="Rocket" parent="." instance=ExtResource("5_lt0mu")]
+z_index = 1
+position = Vector2(0, -1)
+
+[node name="JunkPiles" type="Node2D" parent="."]
+
+[node name="Label" type="Label" parent="."]
+offset_left = -403.0
+offset_top = -654.0
+offset_right = 402.0
+offset_bottom = -526.0
+text = "Victory!"
+label_settings = SubResource("LabelSettings_gum43")
+horizontal_alignment = 1

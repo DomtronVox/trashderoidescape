@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="80mm"
+   height="40mm"
+   viewBox="0 0 80 40"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="screw.svg"
+   inkscape:export-filename="/home/domtron/programming/games/redot/tarent/assets/icons/screw.png"
+   inkscape:export-xdpi="25.4"
+   inkscape:export-ydpi="25.4"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.9408307"
+     inkscape:cx="173.69434"
+     inkscape:cy="98.329523"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect870"
+       style="fill:#9ba6aa;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;paint-order:fill markers stroke"
+       d="m 60.20176,10.555201 v 0 L 60.11783,16.44655 H 16.615679 l -5.291667,3.196179 5.291667,3.196179 H 60.11783 l 0.04447,5.783108 v 0 m 0.03946,-18.066815 c 2.78836,-0.352904 5.495154,1.294376 6.973852,4.244095 1.478698,2.949719 1.470535,6.685689 -0.02103,9.625449 -1.491564,2.93976 -4.205516,4.568866 -6.992292,4.197271"
+       sodipodi:nodetypes="ccccccccccssc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 63.894876,19.592517 h 4.415097"
+       id="path2302"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/domtron/programming/games/redot/tarent/assets/icons/screw.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+    <path
+       id="path2507"
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 21.431898,16.422822 -5.374855,6.113855 m 10.666525,-6.113855 -5.27277,6.476813 m 10.56444,-6.476813 -5.27277,6.476813 m 10.56444,-6.476813 -5.27277,6.476813 m 10.56444,-6.476813 -5.27277,6.476813 m 10.56444,-6.476813 -5.27277,6.476813 m 10.56444,-6.476813 -5.27277,6.476813 m 10.56444,-6.476813 -5.27277,6.476813"
+       sodipodi:nodetypes="cccccccccccccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 66.76192,15.839291 v 7.47734"
+       id="path2542" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 60.11783,16.44655 v 6.392358"
+       id="path2999"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>

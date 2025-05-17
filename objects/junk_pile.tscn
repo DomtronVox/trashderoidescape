@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dcdsck8rhpywe"]
+
+[ext_resource type="Script" path="res://objects/junk_pile.gd" id="1_4285x"]
+[ext_resource type="Texture2D" uid="uid://cdsnkqexqkrv3" path="res://assets/pile.png" id="2_l3tgk"]
+
+[node name="JunkPile" type="Area2D"]
+script = ExtResource("1_4285x")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_l3tgk")
+
+[node name="InteractCollision" type="CollisionPolygon2D" parent="."]
+position = Vector2(0, -12)
+polygon = PackedVector2Array(40, 52, -40, 52, 0, -30)
+
+[node name="CruftGFXContainer" type="Node2D" parent="."]

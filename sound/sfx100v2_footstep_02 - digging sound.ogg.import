@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bq33k533vhnyw"
+path="res://.godot/imported/sfx100v2_footstep_02 - digging sound.ogg-66dc3b4a2e44c12942c590f786c7fe22.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound/sfx100v2_footstep_02 - digging sound.ogg"
+dest_files=["res://.godot/imported/sfx100v2_footstep_02 - digging sound.ogg-66dc3b4a2e44c12942c590f786c7fe22.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

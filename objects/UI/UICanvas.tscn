@@ -1,0 +1,165 @@
+[gd_scene load_steps=15 format=3 uid="uid://c64barccrunwf"]
+
+[ext_resource type="Script" path="res://objects/UI/resource_ui.gd" id="1_bcddi"]
+[ext_resource type="Texture2D" uid="uid://cri3prkh63qvs" path="res://assets/items/fasteners.png" id="2_egbkm"]
+[ext_resource type="Texture2D" uid="uid://dxf25fk3wy17c" path="res://assets/items/copper.png" id="3_0gtq8"]
+[ext_resource type="Texture2D" uid="uid://bpn7d5uwur4c" path="res://assets/items/steel.png" id="4_1nlg4"]
+[ext_resource type="Script" path="res://objects/UI/upgrade_control.gd" id="5_m2bfh"]
+[ext_resource type="PackedScene" uid="uid://wmv0k5di7ohm" path="res://objects/MusicControl.tscn" id="6_g8bla"]
+[ext_resource type="AudioStream" uid="uid://cnnd1vtk2fs0j" path="res://sound/sfx100v2_metal_01 - upgrade disabled.ogg" id="6_xtf20"]
+[ext_resource type="AudioStream" uid="uid://b5rd3wmu3j3jx" path="res://sound/mix of workshop - drill2 and workshop - metal hammering - upgrade sound.mp3" id="7_ywfkd"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_50eeb"]
+bg_color = Color(0.12144, 0.0922881, 0.262612, 1)
+border_width_top = 1
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_right = 140
+
+[sub_resource type="LabelSettings" id="LabelSettings_usm36"]
+font_size = 40
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gnf2m"]
+content_margin_left = 10.0
+content_margin_top = 10.0
+content_margin_right = 2.0
+content_margin_bottom = 10.0
+bg_color = Color(0.121569, 0.0941176, 0.262745, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cli74"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_snrmc"]
+bg_color = Color(0.34902, 0.0941176, 0.262745, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w0jhc"]
+bg_color = Color(0.121569, 0.345098, 0.262745, 1)
+
+[node name="UICanvas" type="CanvasLayer"]
+
+[node name="ResourceUI" type="PanelContainer" parent="."]
+offset_right = 351.0
+offset_bottom = 131.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_50eeb")
+script = ExtResource("1_bcddi")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ResourceUI"]
+z_index = 3
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="ResourceUI/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 6
+
+[node name="FastenerDisplay" type="VBoxContainer" parent="ResourceUI/HBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="ResourceUI/HBoxContainer/FastenerDisplay"]
+layout_mode = 2
+texture = ExtResource("2_egbkm")
+stretch_mode = 3
+
+[node name="Label" type="Label" parent="ResourceUI/HBoxContainer/FastenerDisplay"]
+layout_mode = 2
+text = "Fasteners"
+horizontal_alignment = 1
+
+[node name="fastenersCounter" type="Label" parent="ResourceUI/HBoxContainer/FastenerDisplay"]
+layout_mode = 2
+text = "0"
+label_settings = SubResource("LabelSettings_usm36")
+horizontal_alignment = 1
+
+[node name="CopperDisplay" type="VBoxContainer" parent="ResourceUI/HBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="ResourceUI/HBoxContainer/CopperDisplay"]
+layout_mode = 2
+texture = ExtResource("3_0gtq8")
+stretch_mode = 3
+
+[node name="Label" type="Label" parent="ResourceUI/HBoxContainer/CopperDisplay"]
+layout_mode = 2
+text = "Copper"
+horizontal_alignment = 1
+
+[node name="copperCounter" type="Label" parent="ResourceUI/HBoxContainer/CopperDisplay"]
+layout_mode = 2
+text = "0"
+label_settings = SubResource("LabelSettings_usm36")
+horizontal_alignment = 1
+
+[node name="SteelDisplay" type="VBoxContainer" parent="ResourceUI/HBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="ResourceUI/HBoxContainer/SteelDisplay"]
+layout_mode = 2
+texture = ExtResource("4_1nlg4")
+stretch_mode = 3
+
+[node name="Label" type="Label" parent="ResourceUI/HBoxContainer/SteelDisplay"]
+layout_mode = 2
+text = "Steel"
+horizontal_alignment = 1
+
+[node name="steelCounter" type="Label" parent="ResourceUI/HBoxContainer/SteelDisplay"]
+layout_mode = 2
+text = "0"
+label_settings = SubResource("LabelSettings_usm36")
+horizontal_alignment = 1
+
+[node name="UpgradeControl" type="PanelContainer" parent="."]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -225.0
+offset_top = -267.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_gnf2m")
+script = ExtResource("5_m2bfh")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UpgradeControl"]
+layout_mode = 2
+
+[node name="Description" type="RichTextLabel" parent="UpgradeControl/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Test data Should be overwritten by code."
+
+[node name="UpgradeResources" type="RichTextLabel" parent="UpgradeControl/VBoxContainer"]
+clip_contents = false
+custom_minimum_size = Vector2(0, 30)
+layout_mode = 2
+bbcode_enabled = true
+text = "[img=30%]res://assets/items/fasteners.png[/img] V, [img=30%]res://assets/items/copper.png[/img] V, [img=30%]res://assets/items/steel.png[/img] V"
+scroll_active = false
+
+[node name="UpgradeButton" type="Button" parent="UpgradeControl/VBoxContainer"]
+layout_mode = 2
+theme_override_styles/focus = SubResource("StyleBoxEmpty_cli74")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_snrmc")
+theme_override_styles/normal = SubResource("StyleBoxFlat_w0jhc")
+text = "Upgrade"
+
+[node name="FailedUpgradeSound" type="AudioStreamPlayer" parent="UpgradeControl/VBoxContainer/UpgradeButton"]
+stream = ExtResource("6_xtf20")
+
+[node name="SucceedUpgradeSound" type="AudioStreamPlayer" parent="UpgradeControl/VBoxContainer/UpgradeButton"]
+stream = ExtResource("7_ywfkd")
+
+[node name="Container" type="BoxContainer" parent="."]
+offset_left = 1103.0
+offset_top = 2.0
+offset_right = 1151.0
+offset_bottom = 50.0
+
+[node name="MusicControl" parent="Container" instance=ExtResource("6_g8bla")]
+layout_mode = 2

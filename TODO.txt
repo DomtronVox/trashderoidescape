@@ -1,0 +1,23 @@
+==== MVP ====
+
+* sounds
+  * subtle rustle sound when clearing junkpile
+
+* "Animations"
+  * fire animation when launching
+
+* Graphics
+  * Flames Graphic for launch 'animation'
+
+* Menu screen
+  * Possibly an instruction button.
+
+==== Expanded ====
+* Chance to get special equipment bits when clearing a pile fully.
+* Rocket interrior.
+* Small puzzle games to repair intierrior equipment.
+* Time pressure at different stages of repair, and actual possibility to lose.
+	* Oxygen leak until ship is patched.
+	* CO2 level rising until oxygen filter is repaired.
+	* Radiation exposure until sheilding is repaired.
+	* Batteries draining.
