@@ -1,0 +1,21 @@
+You've crashed into a ball of trash while in the depths of the interplanetary void. Patch up your rocket by digging out materials from the scraps.
+
+Small game created over two-ish weeks for the 2025 Spring Redot "gam jam"[sic]. It's not much, only had a few hours a night to work on it. But at least it's a complete MVP so I'm personally happy with it. Had some ideas to extend it, but didn't get that far.
+
+Instructions: 
+
+* Click and hold the mouse over trashpiles to gather materials.
+* Once you have the requested amount click the button to fix a stage of your ship.
+* Launch your ship to win.
+
+
+Credit:
+
+Code, art, and story by Domtron Vox.
+Music and sounds via https://opengameart.org/
+Main Menu Music - "Another space background track" (CC0) by yd https://opengameart.org/content/another-space-background-track
+Game music - "Planet Rise LEO" (CC0) by FoxSynergy https://opengameart.org/content/planetrise
+Some sound effects taken from this misc collection (CC0) by rubberduck https://opengameart.org/content/100-cc0-sfx-2
+Some sound effects taken from this workshop sounds collection (CC0) by bart https://opengameart.org/content/68-workshop-sounds
+
+Code available on github: https://github.com/DomtronVox/trashderoidescape
